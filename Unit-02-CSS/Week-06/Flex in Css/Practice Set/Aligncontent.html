@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #000000;
+            color: #fff;
+            height: 10vh;
+        }
+
+        .item {
+            width: 50px;
+            background-color: #1866af;
+            border: 1px solid #000000;
+        }
+        .stretch {
+            align-content: stretch;
+        }
+        .start {
+            align-content: flex-start;
+        }
+        .around {
+            align-content: space-around;
+        }
+        .between {
+            align-content: space-between;
+        }
+        .end {
+            align-content: flex-end;
+        }
+        .center {
+            align-content: center;
+        }
+        .baseline {
+            align-content: baseline;
+        }
+        .evenly {
+            align-content: space-evenly;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <!-- align-content is always work top to bottom -->
+        <!-- flex-stretch is the default value of align-item -->
+        <p>align-items:flex-stretch(default) </p>
+        <div class="container stretch">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+
+        <p>align-items:flex-start</p>
+        <div class="container start">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+
+        <p>align-items:space-around</p>
+        <div class="container around">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+        <p>align-items:space-between</p>
+        <div class="container between">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+
+        <p>align-items:end</p>
+        <div class="container end">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+
+        <p>align-items:center</p>
+        <div class="container center">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+
+        <p>align-items:baseline</p>
+        <div class="container baseline">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+        <p>align-items:space-evenly</p>
+        <div class="container evenly">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+    </div>
+</body>
+</html>

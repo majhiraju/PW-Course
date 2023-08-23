@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Frist selector is * (Estric) */
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        /* h2 {
+
+            background-color: #0c6350;
+            color: aliceblue;
+        } */
+
+        .bg-red {
+            background-color: #a01e08;
+        }
+
+        #bg-orange {
+            background-color: #dd6c0f;
+        }
+
+        a[target] {
+            background-color: #870eb8;
+            padding: 10px;
+            color: aliceblue;
+        }
+
+        a:hover {
+            background-color: green;
+        }
+
+        h3 ,
+        h4 {
+            background-color: #a10808;
+            color: aliceblue;
+        }
+
+        ul li {
+            background-color: #e4e70c;
+        }
+
+        header > a {
+            background-color: #870eb8;
+        }
+
+        header > nav > a {
+            background-color: #870eb8;
+        }
+
+        /* img ~ p {
+            background-color: palegreen;
+        } */
+        img+p {
+            background-color: #e60dc1;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- I want to target perticuler element -->
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <!-- learn about class -->
+    <h2 class="bg-red">This is a heading 2</h2>
+
+    <h1 class="bg-red" id="bg-orange">Lorem ipsum dolor sit.</h1>
+    <!-- learn about id -->
+    <h2 id="bg-orange">Lorem ipsum dolor sit amet consectetur.</h2>
+    <!-- learn about Atributes -->
+    <a href="https://pwskills.com">PW Skills</a>
+    <a target="_blank" href="https://iNeuron.ai">iNeuron</a>
+
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+    <h4>Lorem ipsum dolor sit amet consectetur</h4>
+
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+    </ul>
+    <li>Three</li>
+
+    <header>
+        <a href="g">google</a>
+        <nav>
+            <ul>
+                <li>logo</li>
+            </ul>
+            <a href="y">Yahoo</a>
+        </nav>
+    </header>
+    <div>
+        <img src="g" alt="">
+        <p>This is a paragraph</p>
+        <h2>text h2</h2>
+    </div>
+</body>
+
+</html>

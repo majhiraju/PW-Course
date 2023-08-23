@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #d8a90e;
+  }
+  
+  /* nav bar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #0962b6;
+  }
+  
+  .navcontainer {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .navcontainer > div {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .blockOne,
+  .blockTwo,
+  .blockThree {
+    height: 30px;
+    width: 100px;
+    background-color: #c223c2;
+    margin: 5px;
+  }
+  
+  .blockFour {
+    height: 30px;
+    width: 100px;
+    background-color: #c223c2;
+  }
+  
+  /* nav bar */
+  
+  .articleOne {
+    height: 500px;
+    width: 60%;
+    background-color: #9c9a9a;
+    border: solid white 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .articleOne img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .articlecontainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  
+  .articleTwo,
+  .articleThree {
+    height: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .textcontainerOne > div {
+    margin-bottom: 5px;
+    background-color: gray;
+  }
+  .textskeletonOne {
+    height: 25px;
+    width: 200px;
+  }
+  .textskeletonTwo {
+    height: 25px;
+    width: 150px;
+  }
+  .articleTwo {
+    background-color: white;
+  }
+  
+  .textcontainerTwo > div {
+    margin-bottom: 5px;
+    background-color: gray;
+  }
+  .textskeletonThree {
+    height: 25px;
+    width: 200px;
+  }
+  .textskeletonFour {
+    height: 25px;
+    width: 150px;
+  }
+  .articleThree {
+      background-color: #158ab8;
+  }
+  .articlecontainer {
+      display: flex;
+      flex-direction: column;
+      margin: 5px;
+  }
+  
+  .main {
+      display: flex;
+      margin-top: 20px;
+  }
+  
+  .articleThree img {
+      height: 100px;
+      width: 100px;
+  }
+  .articleTwo img {
+      height:100px;
+      width: 100px;
+  }
