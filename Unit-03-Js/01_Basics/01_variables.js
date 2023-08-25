@@ -10,7 +10,7 @@ let accountState;
 
 // accountId = 2 //not allowed
 
-accountEmail = "manjhi2@ gmail.com";
+accountEmail = "manjhi2@gmail.com";
 accountPassword = "231243";
 accountCity = "Bangaluru";
 
@@ -22,4 +22,3 @@ becouse of issue in block scope and functional scope
 */
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
