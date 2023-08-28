@@ -17,6 +17,12 @@ const outsideTemp = null
 // Undefined type
 let userEmail;
 
+// symbol type
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+// console.log(id === anotherId);
+
 //symbol type, String Type
 // const id = symbol('123')
 // const anotherId = symbol('123')
@@ -26,7 +32,7 @@ let userEmail;
 // const bigNumber = 123435421321344n
 
 
-// Reference (Non Prinitive)
+// Reference (Non Prinitive) ****************
 
 // Array, objects, Functions
 
@@ -41,11 +47,11 @@ let myObj = {
 
 // Functions type
 const myFunction = function(){
-    console.log("Hello world");
+    // console.log("Hello world");
 }
 
 // How to know any value datatype
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
 
 
 //++++++++++++++++++++++++++++++++++++
@@ -53,18 +59,15 @@ console.log(typeof myFunction);
 // How to work memory in js
 
 // Stack(Primitive),Heap(reference or Non-Primitive)
-
-
-let myYoutubename = "manjhidotcom"
-
+let myYoutubename = "manjhirajudotcom"
+// How to change value
 let anothername = myYoutubename
-anothername = "rjtech"
-
+anothername = "chaiaurcode"
 console.log(myYoutubename);
 console.log(anothername);
 
 let userOne = {
-    email: "user@google.com"
+      email: "user@google.com"
 }
 
 let userTwo = userOne
@@ -73,3 +76,4 @@ userTwo.email = "raju@google.com"
 
 console.log(userOne.email);
 console.log(userTwo.email);
+
