@@ -8,7 +8,7 @@ function sayMyname() {
 
 // sayMyname()
 
-// how to add to number
+// how to add two number
 
 // function addTwoNumber(number1, number2){
 
@@ -38,4 +38,47 @@ function loginUserMessage(username = "Raju"){
 }
 
 // console.log(loginUserMessage("Raju"))
-console.log(loginUserMessage("Rajesh"))
+// console.log(loginUserMessage("Rajesh"))
+
+// Shopping cart\
+
+// Rest Operator (...num1)
+
+function calculateCartPrice(val1, val2, ...num1){
+  return num1
+}
+
+// console.log(calculateCartPrice(200, 300, 400, 3000))
+
+// Object
+
+const user = {
+  username: "Raju",
+  prices: 200
+}
+
+function handleObject(anyobject){
+  // console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
+  return
+}
+
+// handleObject(user)
+
+// Direct Object pass
+
+handleObject({
+  username: "kaka",
+  price: 400
+})
+
+
+// How to array pass in function
+
+const myNewArray = [200, 300, 400, 600]
+
+function returnThirdValue(array){
+  return array [2]
+}
+
+// console.log(returnThirdValue(myNewArray));
+console.log(returnThirdValue([200, 300, 400, 600]));
