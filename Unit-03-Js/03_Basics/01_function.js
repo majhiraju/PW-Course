@@ -1,84 +1,85 @@
-// Defination of function
-function sayMyname() {
+function sayMyName() {
   console.log("R");
   console.log("a");
   console.log("j");
   console.log("u");
 }
 
-// sayMyname()
+// const result = sayMyName()
+// console.log(result);
 
-// how to add two number
 
-// function addTwoNumber(number1, number2){
 
-//     console.log(number1 + number2);
-// }
+// add two Number
 
-// mathods +++++++++++++++++++++++++++++
-
-function addTwoNumber(number1, number2) {
-  // let result = number1 + number2
+function addTwoNumber(num1, num2) {
+  // let result = num1 + num2
   // return result
-  return number1 + number2;
+  return num1 + num2
 }
+const result = addTwoNumber(7, 8);
+// console.log("Result: ", result);
 
-const result = addTwoNumber(5, 9);
 
-// console.log("result: ", result);
+// different method take to parameter
 
-// many methods take (paramiter and argument value)
-
-function loginUserMessage(username = "Raju"){
-    if(!username){
-        console.log("Please enter a username");
-        return
-    }
-    return `${username} just logged in`
+function loggedInMessage(username = "Ram"){
+  if (username === undefined) {
+    console.log("Please enter a username");
+    return
+  }
+  return (`${username}, just logged in`)
 }
+// console.log(loggedInMessage("Raju"))
+// console.log(loggedInMessage("Raju"))
 
-// console.log(loginUserMessage("Raju"))
-// console.log(loginUserMessage("Rajesh"))
 
-// Shopping cart\
+// Shopping Cart
 
-// Rest Operator (...num1)
+// Rest Parameter (... rest Operator) and set the parameter of customer
 
-function calculateCartPrice(val1, val2, ...num1){
-  return num1
+function addPrice(...num){
+  return num
 }
+const results = addPrice(11, 33, 34, 55, 77)
+// console.log(results)
 
-// console.log(calculateCartPrice(200, 300, 400, 3000))
 
-// Object
 
+// How to Object pass in function
+
+// Object 1
 const user = {
-  username: "Raju",
-  prices: 200
+  book: "Bharat",
+  price: 499
 }
 
-function handleObject(anyobject){
-  // console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
-  return
+// Object 2
+const users = {
+  book: "Prime minister of Bharat",
+  price: 3999
 }
 
-// handleObject(user)
+function bookPrice(anyobject){
+  // console.log(`The book name is ${anyobject.book}, and price is Rs. ${anyobject.price} /-.`)
+}
+// bookPrice(users)
 
-// Direct Object pass
-
-handleObject({
-  username: "kaka",
-  price: 400
+// Direct object pass
+bookPrice({
+  book: "kaku",
+  price: 499
 })
 
 
-// How to array pass in function
+// Array pass in function
 
-const myNewArray = [200, 300, 400, 600]
+const myarr = [30, 50, 60, 10, 80, 90]
 
-function returnThirdValue(array){
-  return array [2]
+function returnFifthvalue(anyarray){
+  return anyarray[4]
 }
+// console.log(returnFifthvalue(myarr))
 
-// console.log(returnThirdValue(myNewArray));
-console.log(returnThirdValue([200, 300, 400, 600]));
+// Direct method
+console.log(returnFifthvalue([10, 20, 50, 39, 44]))
