@@ -23,15 +23,15 @@ const result = addTwoNumber(7, 8);
 
 // different method take to parameter
 
-function loggedInMessage(username = "Ram"){
+function loggedInMessage(username){
   if (username === undefined) {
     console.log("Please enter a username");
-    return
+    // return
   }
   return (`${username}, just logged in`)
 }
-// console.log(loggedInMessage("Raju"))
-// console.log(loggedInMessage("Raju"))
+const res = loggedInMessage("raju")
+// console.log(res)
 
 
 // Shopping Cart
@@ -82,4 +82,4 @@ function returnFifthvalue(anyarray){
 // console.log(returnFifthvalue(myarr))
 
 // Direct method
-console.log(returnFifthvalue([10, 20, 50, 39, 44]))
+// console.log(returnFifthvalue([10, 20, 50, 39, 44]))
