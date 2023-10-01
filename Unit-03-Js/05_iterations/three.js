@@ -1,48 +1,56 @@
-// for of loop
+// forof loop +++++++++++++++++++++
 
-// ["", "", ""]
-// [{}, {}, {}]
+["", "", ""]
+[{}, {}, {}]
 
-// example of array  +++++++++++++++
 
-const arr = [1, 2, 3, 4, 5];
+// example for Number
+
+const arr = [1, 2, 3, 4, 5, 6, 7]
 
 for (const num of arr) {
   // console.log(num);
 }
 
-// example of string  +++++++++++++
+// example for String
 
-const name = "Raju Manjhi";
+const name  = ["raju", "rajesh", "anup", "hitesh sir"]
 
 for (const nam of name) {
-  // console.log(`The name is ${nam}`)
+// console.log(`value is ${nam}`);
 }
 
-// Maps ++++++++++++++++++++ (It is Object and holed key value pair)
+const greeting = "Hello World!"
 
-const map = new Map();
-
-map.set("IN", "India");
-map.set("USA", "United States of America");
-map.set("Fr", "France");
-
-// console.log(map)
-
-// set forof loop in map
-for (const [key, value] of map) {
-  // console.log(`key, ':-' value`)
+for (const greet of greeting) {
+  // console.log(`Each char is ${greet}`)
 }
 
 
+// Maps ++++++++++++++++++++++++++++++++++++++
 
-// example of Object  +++++++++
+ const map = new Map()
+ map.set('IN', 'India')
+ map.set('Fr', 'france')
+ map.set('USA', 'United States of America')
+
+//  console.log(map);
+
+ for (const [key, value] of map) {
+  // console.log(key, ':-', value);
+ }
+
+
+//  example of Object
+
 
 const myObject = {
-  game1: "NFS",
-  game2: "Superman",
-};
+  'game1': 'FootBall',
+  'game2': 'cricket'
+}
 
-// for (const [key, value] of myObject) {
-//   console.log(key, value)
-// }
+for (const [key, value] of myObject) {
+  console.log(key, ':-', value)
+}
+
+// object not iteratable

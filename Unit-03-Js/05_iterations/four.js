@@ -1,36 +1,39 @@
-// forin loop 
+// forin loop +++++++++++++++++++++++++
 
-// for object example
+// for Object
 
 const myObject = {
-    js: 'JavaScript',
-    cpp: 'C++',
-    rb: 'Ruby',
-    py: 'Python'
-}
-
+    js: 'javaScript',
+    py: 'pythan',
+    rb: 'ruby',
+    jv: 'java',
+} 
 
 for (const key in myObject) {
-    // console.log(`${key} shortcut is for ${myObject[key]}`)
+    // console.log(`${key}, shortcut is for ${myObject[key]}`);
 }
 
 
-// for Array example
+// for array
 
-const myArr = ["js", "rb", "cpp", "py", "java"]
+const coding = ['js', 'py', 'jv', 'rb', 'c++']
 
-for (const key in myArr) {
-    // console.log(myArr[key]);
+for (const key in coding) {
+    // console.log(`${key}, value is for ${coding[key]}`)
 }
 
+// for map
 
-// const map = new Map();
+const map = new Map()
+ map.set('IN', 'India')
+ map.set('Fr', 'france')
+ map.set('USA', 'United States of America')
 
-// map.set("IN", "India");
-// map.set("USA", "United States of America");
-// map.set("Fr", "France");
 
-// for (const key in map) {
-//     console.log(map[key])
-// }
+//  for (const [key] in map) {
+//     console.log(`${key}, shortcut is for ${map}`)
+//  }
 
+
+
+// not iterable 

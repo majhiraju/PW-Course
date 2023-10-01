@@ -1,4 +1,4 @@
-// while loop
+// while loop ++++++++++++++++++++++++++++
 
 let index = 1
 while (index <= 12) {
@@ -10,15 +10,15 @@ while (index <= 12) {
 // array in while loop
 
 
-let myarr = [1, 3, 4, 5, 8, 2]
+let myArr = [1, 3, 4, 5, 8, 2]
 
 let arr = 0
-while (arr < myarr.length) {
+while (arr < myArr.length) {
     // console.log(`value is ${myarr[arr]}`)
     arr = arr + 1
 }
 
-// do while loop
+// do while loop +++++++++++++++++++++
 
 let score = 6
 

@@ -1,52 +1,71 @@
-// forEach Loop 
+// call back function    (forEach ) - "high order array loop"
 
-const coding = ["js", "rb", "java", "py"]
+const coding = ["js", "py", "rb", "jv", "c++"];
 
-// coding.forEach ( function (item) {
-//     console.log(item)
-// } )
+// name is not allowed in callback function.
 
+coding.forEach(function (item) {
+  // console.log(item);
+});
 
+// use in arrow function
 
-// coding.forEach ( (val) => {
-//     console.log(val)
-// } )
+coding.forEach(function (val) {
+  // console.log(val)
+});
 
+coding.forEach(printMe);
 
+// printMe
 
-// loop in function ++++++++++++++
+function printMe(item) {
+  // console.log(item);
+}
 
-
-// function printMe (value){
-//     console.log(value);
-// }
-// coding.forEach(printMe)
-
-
-// parameter+++++++++++
-
-// coding.forEach( (item, index, array) => {
-//     console.log(item, index, array)
-// } )
+// pass out this function in forEach
 
 
-// example of  Object in  array ++++++++++
+
+
+
+// example for use foreach function 
+
+const numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach(function (number, index) {
+  // console.log(`Element at index ${index} is ${number}`);
+});
+
+
+
+// parameter access in forEach function
+
+coding.forEach( (item, index, array) => {
+  // console.log(item, index, array)
+} )
+
+
+
+// array into abject
+// [{}, {}, {}]
 
 const myCoding = [
-    {
-        languageName: "javaScript",
-        languageFileName: "js"
-    },
-    {
-        languageName: "python",
-        languageFileName: "py"
-    },
-    {
-        languageName: "java",
-        languageFileName: "java"
-    },
+  {
+    languagename: 'javaScript',
+    languageFileName: 'js'
+  },
+  {
+    languagename: 'python',
+    languageFileName: 'py'
+  },
+  {
+    languagename: 'java',
+    languageFileName: 'jv'
+  },
 ]
 
-myCoding.forEach ( (item) => {
-    console.log(item.languageName)
+myCoding.forEach( (index) => {
+  console.log(index.languagename)
 } )
+
+
