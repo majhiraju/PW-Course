@@ -17,7 +17,7 @@ const regularUser = {
     },
   },
 };
-// console.log(regularUser.fullname.userfullname.firstName);
+console.log(regularUser.fullname.userfullname.firstName);
 
 const obj1 = { 1: "a", 2: "b" };
 const obj2 = { 3: "a", 4: "b" };
@@ -65,7 +65,7 @@ const course = {
 
 const { courseInstructor: instructor } = course;
 
-console.log(instructor);
+// console.log(instructor);
 
 // API concept
 // {
@@ -73,6 +73,7 @@ console.log(instructor);
 //     "coursename": "code and practice",
 //     "price": "free"
 // }
+
 
 [
     {}, 
