@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM | Chai aur code</title>
+</head>
+<body>
+  <ul class="language">
+    <li>JavaScript</li>
+  </ul>
+</body>
+<script>
+
+  // Add value +++++++++++++++++++++++++++++++++++
+
+  // basic method ++++++++++++++
+
+  function addLanguage(langName){
+    const li = document.createElement('li')
+    li.innerHTML = `${langName}`
+    document.querySelector('.language').appendChild(li)
+  }
+  addLanguage('python')
+  addLanguage('mojo')
+
+
+  // Optimized method using DSA same work ++++++++++++
+
+  function addOptiLanguage(langName){
+    const li = document.createElement('li')
+    li.appendChild(document.createTextNode(langName))
+    document.querySelector('.language').appendChild(li)
+  }
+  addOptiLanguage('typeScript')
+
+
+  // Edit ++++++++++++++++++++++++++++++
+
+  const secondLang = document.querySelector('li:nth-child(2)')
+  console.log(secondLang)
+  // secondLang.innerHTML = 'golang'
+  const newLi = document.createElement('li')
+  newLi.textContent = 'c++'
+  secondLang.replaceWith(newLi)
+
+  // another edit example
+  
+  const firstValueReplace = document.querySelector('li:first-child')
+  console.log(firstValueReplace)
+  firstValueReplace.outerHTML = '<li>java</li>'
+
+  // Remove +++++++++++++++++++++++
+
+  const removeLi = document.querySelector('li:last-child')
+  removeLi.remove()
+</script>
+</html>
