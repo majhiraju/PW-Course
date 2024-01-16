@@ -12,6 +12,7 @@ const dc_heros = ["superman", "flash", "batman"]
 // const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros);
 
+
 // spred methods
 const all_new_heros = [...marvel_heros, ...dc_heros]
 

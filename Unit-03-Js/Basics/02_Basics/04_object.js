@@ -7,7 +7,6 @@ tinderUser.isLoggedIn = false;
 
 //  console.log(tinderUser);
 
-
 const regularUser = {
   email: "saswat123@gmail.com",
   fullname: {

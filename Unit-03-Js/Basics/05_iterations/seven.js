@@ -18,6 +18,7 @@ myNumber.map( (num) => {
     }
 } )
 
+
 // console.log(number);
 
 

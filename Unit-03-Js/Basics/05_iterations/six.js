@@ -21,6 +21,7 @@ const result = newNums.filter( (index) => index > 5 )
 
 
 
+
 // same work for using foreach function
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

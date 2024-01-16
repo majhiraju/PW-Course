@@ -11,7 +11,6 @@ const gameName = new String('Raju-Manjhi-S')
 // console.log(gameName.toUpperCase());
 // console.log(gameName.charAt(5));
 // console.log(gameName.indexOf('n'));
-
 const newString = gameName.substring(0, 3)
 // console.log(newString);
 

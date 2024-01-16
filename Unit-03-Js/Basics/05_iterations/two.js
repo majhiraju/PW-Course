@@ -20,6 +20,7 @@ while (arr < myArr.length) {
 
 // do while loop +++++++++++++++++++++
 
+
 let score = 6
 
 do {

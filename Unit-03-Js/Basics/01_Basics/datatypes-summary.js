@@ -14,6 +14,7 @@ const isLoggedIn = false
 //null type
 const outsideTemp = null
 
+
 // Undefined type
 let userEmail;
 

@@ -12,6 +12,7 @@ let valueInNumber = Number(score)
 //"33abc" => NaN
 //ture => 1, false => 0
 
+
 let isLoggedIn = "raju"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)

@@ -20,6 +20,7 @@ for (const nam of name) {
 // console.log(`value is ${nam}`);
 }
 
+
 const greeting = "Hello World!"
 
 for (const greet of greeting) {

@@ -20,6 +20,7 @@ function changeBgColor(){
 
 }
 }
+
 const stopChangingColor = function(){
     clearInterval(intervalId)
     intervalId = null

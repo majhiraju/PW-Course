@@ -15,6 +15,7 @@ const myTotal = myNum.reduce( (acc, currval) => acc+currval, 0)
 // console.log(myTotal)
 
 
+
 // shoppingcart ++++++++++++
 
 const shoppingCart = [

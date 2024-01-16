@@ -15,6 +15,7 @@ let numGuess = 1;
 
 let playGame = true;
 
+
 if (playGame) {
   submit.addEventListener('click', function (e) {
     e.preventDefault();

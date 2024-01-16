@@ -14,6 +14,7 @@ const otherNumber = 23.4322
 const hundreds = 1000000
 // console.log(hundreds.toLocaleString('en-IN'));
 
+
 //+++++++++++++++++++++ Maths ++++++++++++++++++++++++++++
 
 // console.log(Math);

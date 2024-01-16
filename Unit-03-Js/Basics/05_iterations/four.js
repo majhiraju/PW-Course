@@ -16,6 +16,7 @@ for (const key in myObject) {
 
 // for array
 
+
 const coding = ['js', 'py', 'jv', 'rb', 'c++']
 
 for (const key in coding) {
